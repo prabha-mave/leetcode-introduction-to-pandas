@@ -1,17 +1,17 @@
 # Create DataFrame
-### pd.DataFrame(data)
+## pd.DataFrame(data)
 
 # Select column
-### df['Age']
+## df['Age']
 
 # Multiple columns
-### df[['Name', 'Age']]
+## df[['Name', 'Age']]
 
 # Filter
-### df[df['Age'] > 25]
+## df[df['Age'] > 25]
 
 # Rename
-### df.rename(columns={'old':'new'})
+## df.rename(columns={'old':'new'})
 
 # Sort
-### df.sort_values(by='Salary')
+## df.sort_values(by='Salary')
